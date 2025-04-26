@@ -33,11 +33,6 @@ target_sources(${PROJECT_NAME}
         src/std.compat.ixx
 )
 
-target_precompile_headers(${PROJECT_NAME}
-        PUBLIC
-        src/stdc++pch.hpp
-)
-
 include(CMakePackageConfigHelpers)
 include(GNUInstallDirs)
 

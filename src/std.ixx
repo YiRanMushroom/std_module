@@ -3,7 +3,6 @@
 
 // In a module-file, the optional `module;` must appear first; see [cpp.pre].
 module;
-#include <version>
 #ifdef _MSC_VER
 // This named module expects to be built with classic headers, not header units.
 #define _BUILD_STD_MODULE

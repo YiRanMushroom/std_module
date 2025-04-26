@@ -1,6 +1,7 @@
 module;
 
 #include <version>
+#include <time.h>
 
 export module yrm.msvc.std.compat;
 
