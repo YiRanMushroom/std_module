@@ -54,7 +54,7 @@ export module yrm.msvc.std;
 #endif
 
 // I literally have no idea why this worked.
-export {
+// export {
 // "C++ library headers" [tab:headers.cpp]
 #include <algorithm>
 #if _HAS_STATIC_RTTI
@@ -184,4 +184,4 @@ export {
 #endif
 
 #endif
-}
+// }
