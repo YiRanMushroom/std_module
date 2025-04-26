@@ -34,7 +34,7 @@ target_sources(${PROJECT_NAME}
 )
 
 target_precompile_headers(${PROJECT_NAME}
-        PRIVATE
+        PUBLIC
         src/stdc++pch.hpp
 )
 
