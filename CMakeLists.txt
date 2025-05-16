@@ -15,16 +15,6 @@ add_library(${PROJECT_NAME}
         src/std.compat.ixx
 )
 
-target_compile_options(${PROJECT_NAME}
-        PRIVATE
-        -pedantic
-        -Wall
-        -Wextra
-        -Wsign-conversion
-        -Wdouble-promotion
-        -Werror
-)
-
 target_sources(${PROJECT_NAME}
         PUBLIC
         FILE_SET cxx_modules TYPE CXX_MODULES
